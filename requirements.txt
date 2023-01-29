@@ -15,6 +15,7 @@ django-cloudinary-storage==0.3.0
 django-heroku==0.3.1
 django-mpesa==2.0.14
 django-on-heroku==1.1.2
+django-rest-knox==4.2.0
 djangorestframework==3.13.1
 djangorestframework-simplejwt==5.2.2
 idna==3.3

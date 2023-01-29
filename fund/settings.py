@@ -14,7 +14,7 @@ MODE=config("MODE")
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-r%$88xf&dz*ho7h!^hf8n6v*32u_-jp2%t-)fu#2up4v8@*2@d'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
